@@ -1,0 +1,36 @@
+.posts-list {
+    box-sizing: border-box;
+    border: solid rgb(58, 122, 206) 3px;
+    padding: 10px;
+}
+
+button {
+    border-color: purple;
+    background-color: white;
+    height: 26px;
+    width: 120px;   
+}
+
+.search-post button {
+    margin-left: 20px;
+}
+
+.search-post {
+    display: inline-block;
+    height: 40px;
+}
+
+.add-post-button {
+    position: relative;
+    float: right;
+    height: 40px;
+}
+
+.search-post input {
+    height: 20px;
+    width: 300px;
+}
+
+.posts-list .header {
+    padding: 10px;
+}

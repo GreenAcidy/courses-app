@@ -1,0 +1,19 @@
+.login {
+    box-sizing: border-box;
+    border: solid blue 3px;
+    margin-top: 19px;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login .form {
+    margin-top: -250px;
+}
+
+.login .form button {
+    margin-top: 10px;
+    margin-left: 25px;
+    display: inherit;
+}

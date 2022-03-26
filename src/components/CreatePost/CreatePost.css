@@ -1,0 +1,62 @@
+label {
+  display: block;
+}
+
+.description-input {
+  padding-left: 20px;
+}
+
+button {
+  background-color: white;
+  border-color: purple;
+  height: 26px;
+  width: 120px;
+}
+
+.create-author button {
+  display: block;
+  margin: 10px 0 0 25px;
+}
+
+.create-author{
+  display: inline-block;
+  vertical-align:top;
+}
+
+.authors-input .authors{
+  padding-left: 40px;
+  display: inline-block;
+}
+
+.author-name {
+  display: inline-block;
+  width: 200px;
+}
+
+.author-buttons {
+  display: inline-block; 
+}
+
+
+.create-post .header {
+  display: flex;
+  padding: 20px;
+  position: relative;
+}
+
+.create-post .header button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 20px;
+}
+
+
+.create-post {
+  box-sizing: border-box;
+  border: solid rgb(58, 122, 206) 3px;
+}
+
+.authors-input {
+  margin: 20px;
+}

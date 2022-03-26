@@ -1,0 +1,46 @@
+.post-info {
+    box-sizing: border-box;
+    border: solid blue 3px;
+    margin-top: 19px;
+    height: 90vh;
+}
+
+.post-info .title {
+    text-align: center;
+    font-size: 50px;
+}
+
+.post-info .description {
+    width: 50%;
+    padding-left: 60px;
+    font-size: 30px;
+    display:inline;
+    float:left;
+    
+}
+
+.post-info .info {
+    width: 40%;
+    padding-left: 60px;
+    font-size: 30px;
+    display:inline;
+    float:left;
+}
+
+.post-info button{
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 20px;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.post-error {
+    box-sizing: border-box;
+    border: solid blue 3px;
+    margin-top: 19px;
+    text-align: center;
+    height: 89vh;
+}

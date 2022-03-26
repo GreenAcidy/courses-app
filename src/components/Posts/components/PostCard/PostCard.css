@@ -1,0 +1,38 @@
+.post-card {
+    box-sizing: border-box;
+    border: solid rgb(45, 161, 103) 2px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-info {
+    width: 1300px;
+}
+
+.additional-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.additional-info .authors {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 500px;
+    overflow: hidden;
+}
+
+.additional-info button {
+    background-color: white;
+    border-color: purple;
+    height: 26px;
+    width: 120px;
+}
+
+.additional-info .show-button {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+}

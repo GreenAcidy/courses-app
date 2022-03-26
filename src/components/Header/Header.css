@@ -1,0 +1,27 @@
+.main-header {
+    box-sizing: border-box;
+    border: solid rgb(255, 0, 0) 3px;
+    height: 75px;
+
+}
+
+.main-header .logout-button button {
+    float: right;
+    border-color: purple;
+    background-color: white;
+    margin: 20px;
+    height: 26px;
+    width: 120px;
+}
+
+.main-header .logo  img{
+    float: left;
+    height: 50px;
+    width: 50px;
+    padding: 10px 0 10px 20px;
+}
+
+.main-header .username {
+    float: right;
+    padding: 20px;
+}
